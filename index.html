@@ -1,0 +1,99 @@
+<html>
+<script src='https://code.jquery.com/jquery-3.1.0.js'></script>
+<script src='calc.js'></script>
+<body onload='setup()'>
+  <div> <!-- intro -->
+    <p>
+      Cyara's CX Assurance Platform helps you accelerate development and get more
+      from your development resources, all while improving quality.
+    </p>
+    <p>Want to see how Cyara can benefit you?</p>
+    <p>
+      Our benefits calculator can give you an estimate of the impact of automating
+      your CX Assurance.
+    </p>
+  </div>
+  <br>
+
+  <div><!-- part 1 -->
+    <p>
+      Part 1: First, let's establish the baseline cost of your development team focused on
+      CX systems and applications:
+    </p>
+    <div>
+      <p>How many of your Development Staff are focused on your CX systems and applications?</p>
+      <input id='num-dev-staff' type='number' class='calc-input'/>
+
+     <p>What is the average salary of these staff? (the industry average is $100,000)</p>
+      <input id='average-salary' type='number' class='calc-input'/>
+
+      <p>What is your overhead? (the industry average is 2.2)</p>
+      <input id='overhead' type='number' class='calc-input'/>
+
+      <p>Estimated Cost:</p>
+      <span id='estimated-cx-cost'>--</span>
+    </div>
+  </div>
+  <br>
+  <div><!-- part 2 -->
+    <p>
+      Part 2: Unplanned work is a major constraint in development.
+      On average, most software development teams face 50% unplanned work,
+      leaving only 50% of their time for productive work.
+    </p>
+    <div>
+      <p>
+        How much unplanned work do you estimate your team faces?
+        (the industry average is 50%)
+      </p>
+      <input id='unplanned-work' type='number' class='calc-input'/>%
+
+      <p>Your Maximum Capacity:</p>
+      <span id='hours-capacity'>--</span>
+
+      <p>Development capacity lost to unplanned work:</p>
+      <span id='capacity-lost'>--</span>
+    </div>
+  </div>
+  <br>
+    <div><!-- part 3 -->
+    <p>
+      Part 3: Testing is a major constraint in the development process. By automating testing,
+      you can reduce cycle time for a release. On average, you can reduce cycle time by 40%
+      by automating testing. This means that, with the same resources, you can accomplish more.
+    </p>
+    <div>
+      <p>Your Current Capacity:</p>
+      <span id='current-capacity'>--</span>
+      <p>Total new output:</p>
+      <span id='new-output-cycle'>--</span>
+    </div>
+  </div>
+  <br>
+  <div> <!-- part 4 -->
+    <p>Part 4: Reduction of unplanned work.</p>
+    <p>
+      By improving quality, you can reduce unplanned work.
+      Our services can reduce it by 50%, increasing your total capacity.
+     </p>
+    <p>Total new output:</p>
+    <span id='new-output-unplanned'>--</span>
+  </div>
+  <br>
+  <div><!-- part 5 -->
+    <p>Total Benefit Summary</p>
+    <p>Total new capacity:</p>
+    <span id='total-additional-capacity'>--</span>
+  </div>
+  <br>
+  <div>
+    <p>
+      Want to learn more? Contact us to talk to Cyara about how our
+      CX Assurance Platform can help you accelerate your development
+      and improve the quality of your CX systems.
+    </p>
+  </div>
+
+
+</body>
+</html>
