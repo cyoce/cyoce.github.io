@@ -1,30 +1,89 @@
 <html>
   <body>
     <style>
-      * {
+      body {
+        color:#bbb;
         font-family: Helvetica, Arial, sans-serif;
+        background-color:#333;
       }
       h1 {
         text-align: center;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid white;
+      }
+
+      h2 {
+        text-align: center;
       }
       
       ul {
         list-style-type:none;
-        padding-left: .7em;
+        padding-left: 0;
+        text-align: center;
       }
       ul > li:before {
-        content:"-";
+        content:"";
         font-weight:bold;
         padding-right:.7em;
       }
+
+      a {
+        color:#0af;
+      }
+
+      .game {
+        border-radius: 30px;
+        /* float:left; */
+      }
+
+      .game-panel {
+        /* float:none; */
+        display: block;
+        float:left;
+        margin: 20px;
+        height: 350px;
+        
+      }
+      .game-desc {
+        margin-left: 15px;
+        margin-top: 5px;
+      }
+      .panel-holder {
+        
+        margin-left: auto;
+        margin-right: auto;
+        
+        align-self: center;
+        width: 70%;
+      }
+
     </style>
-    <h1>Ryan Powers&rsquo; Provisional Pretty Professional Portfolio</h1>
-    <h2>Games</h2>
-    <ul>
-      <li>
-        <a href="https://deangoodson.itch.io/graybox">Graybox</a>
-      </li>
-    </ul>
+    <h1>Ryan Powers</h1>
+    <h2>Gameplay Programmer, <a href="https://www.vultiveentertainment.com/">Vultive Entertainment</a></h2>
+
+    <div class="panel-holder">
+      <div class="game-panel" width="300px">
+        <a href="https://store.steampowered.com/app/2823860/Joe_n_Jo/"><img class="game" src="joenjo.png" width="300" height="300"></a>
+        <p class="game-desc"> <a href="https://store.steampowered.com/app/2823860/Joe_n_Jo/">Joe n' Jo</a></p>
+        <p class="game-desc">Rewrite for Steam release</p>
+      </div>
+      <div class="game-panel" width="300px">
+        <a href="https://globalgamejam.org/games/2025/bubble-fish-bonanza-9"><img class="game" src="bubblefish.png" width="300" height="300"></a>
+        <p class="game-desc"><a href="https://globalgamejam.org/games/2025/bubble-fish-bonanza-9">Bubblefish Bonanza</a></p>
+        <p class="game-desc">Global Game Jam 2025</p>
+      </div>
+      <div class="game-panel" width="300px">
+        <a href="https://keanataire.itch.io/return-of-the-tomb-raider"><img class="game" src="tombraider.png" width="300" height="300"></a>
+        <p class="game-desc"> <a href="https://keanataire.itch.io/return-of-the-tomb-raider">Return of the Tomb Raider</a></p>
+      </div>
+      <div class="game-panel" width="300px">
+        <a href="https://deangoodson.itch.io/graybox"><img class="game" src="graybox.png" width="300" height="300"></a>
+        <p class="game-desc"> <a href="https://deangoodson.itch.io/graybox">Graybox</a></p>
+      </div>
+      <div class="game-panel" width="300px">
+        <a href="https://globalgamejam.org/games/2024/joe-n-jo-8"><img class="game" src="joeggj.jpg" width="300" height="300"></a>
+        <p class="game-desc"> <a href="https://globalgamejam.org/games/2024/joe-n-jo-8">Joe n' Jo</a></p>
+        <p class="game-desc">Global Game Jam 2024</p>
+      </div>
+    </div>
   </body>
 </html>
