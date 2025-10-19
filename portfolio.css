@@ -1,0 +1,61 @@
+
+      body {
+        color:#bbb;
+        font-family: Helvetica, Arial, sans-serif;
+        background-color:#000;
+      }
+      h1 {
+        border-bottom: 1px solid white;
+        color: #f00;
+      }
+
+      h1, h2, h3 {
+        text-align: center;
+      }
+      
+      ul {
+        list-style-type:none;
+        padding-left: 0;
+        text-align: center;
+      }
+      ul > li:before {
+        content:"";
+        font-weight:bold;
+        padding-right:.7em;
+      }
+
+      a {
+        color:#900;
+      }
+
+      .darkred { 
+        color:#900;
+      }
+      .game {
+        border-radius: 30px;
+      }
+
+      .game-panel {
+        display: block;
+        float:left;
+        margin-left: 50px;
+        margin-right: 50px;
+        height:475px;
+        align-self:center;
+        
+      }
+      .game-desc {
+        margin-left: 15px;
+        margin-top: 5px;
+      }
+      .panel-holder {
+        
+        margin-left: auto;
+        margin-right: auto;
+        align-self: center;
+        width: 90%;
+      }
+      .contact > p {
+        font-size:20px;
+        text-align:center;
+      }
